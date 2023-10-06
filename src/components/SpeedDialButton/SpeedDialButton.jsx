@@ -1,10 +1,10 @@
 import './SpeedDialButton.css'
-import React, { useState, useCallback, useEffect } from 'react'
+import React, { useState } from 'react'
 import { SpeedDial } from 'primereact/speeddial';
 
         
 
-export const SpeedDialButton = () => {
+export const SpeedDialButton = (products) => {
   const [visible, setVisible] = useState(false);
 
   const actionItems = [

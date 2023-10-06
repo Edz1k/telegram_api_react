@@ -13,7 +13,7 @@ export const ProductCard = ({product, className, onAdd}) => {
   return (
     <Fieldset legend="Header" toggleable className={'headerLegend'}>
         <div className={'product ' + className}>
-            <img src={product.img}></img>
+            {/* <img src={product.img}></img> */}
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
             <div className={'price'}>
