@@ -21,3 +21,8 @@
 .add-btn {
     width: 100%;
 }
+.p-fieldset-legend {
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
